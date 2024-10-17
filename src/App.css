@@ -3,20 +3,6 @@
   padding: 20px;
 }
 
-button {
-  margin: 10px;
-  padding: 10px;
-  background-color: rgb(40, 99, 72);
-  border: none;
-  border-radius: 5px; 
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: rgb(11, 46, 30);
-}
-
 h2 {
   margin: 20px 0;
 }
