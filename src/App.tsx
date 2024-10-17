@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Quiz from "./components/Quiz";
+import "./App.css";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="Meow">
-      <header className="Meow-header">
-       
-      </header>
+      <h1>Purrrsonality Quiz</h1>
+      <Quiz />
     </div>
   );
-}
+};
 
 export default App;
