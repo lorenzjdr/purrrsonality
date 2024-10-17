@@ -1,8 +1,8 @@
 import React from "react";
 import Quiz from "./components/Quiz";
-import "./App.css";
+import "./page.css";
 
-const App: React.FC = () => {
+const Page: React.FC = () => {
   return (
     <div className="Meow">
       <h1>Purrrsonality Quiz</h1>
@@ -11,4 +11,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Page;
