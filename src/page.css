@@ -2,11 +2,11 @@
    text-align: center;
    padding: 20px;
  }
- 
+
 button {
    margin: 10px;
    padding: 10px;
-   background-color: rgb(40, 99, 72);
+   background-color: rgb(96, 162, 132);
    border: none;
    border-radius: 5px; 
    cursor: pointer;
