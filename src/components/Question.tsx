@@ -1,5 +1,6 @@
 import React from "react";
 import { Question } from "../quizData";
+import './quiz.css'
 
 interface QuestionProps {
   question: Question;
@@ -8,7 +9,7 @@ interface QuestionProps {
 
 const QuestionComponent: React.FC<QuestionProps> = ({ question, onAnswer }) => {
   return (
-    <div>
+    <div className="bur">
       <h2>{question.question}</h2>
       {question.options.map((option, index) => (
         <button key={index} onClick={() => onAnswer(option.value)}>

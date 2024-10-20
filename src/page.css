@@ -9,6 +9,8 @@ body {
 
 .Meow {
    text-align: center;
+   display: flex;
+   flex-direction: column;
    font-family: Verdana, sans-serif;
  }
 
