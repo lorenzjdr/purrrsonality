@@ -12,6 +12,13 @@ body {
    font-family: Verdana, sans-serif;
  }
 
+ .button-container {
+  display: flex;         
+  flex-direction: column;      
+  align-items: center;     
+  gap: 10px;                 
+}
+
 button{
    margin: 10px;
    padding: 10px;
@@ -22,6 +29,7 @@ button{
    font-family: Verdana, sans-serif;
    font-weight: bold;
    cursor: url('./images/file.png'), auto;
+   flex-direction: column;
  }
  
  button:hover {
