@@ -3,16 +3,16 @@
    padding: 20px;
  }
 
-button {
+button{
    margin: 10px;
    padding: 10px;
-   background-color: rgb(96, 162, 132);
+   background-color: #ff985a;
    border: none;
    border-radius: 5px; 
    cursor: pointer;
-   font-size: 16px;
+   font-size: 25px;
  }
  
  button:hover {
-   background-color: rgb(11, 46, 30);
+   background-color: #fffcf4;
  }

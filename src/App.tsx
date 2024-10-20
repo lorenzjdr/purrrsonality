@@ -13,7 +13,9 @@ const App: React.FC = () => {
     <div className="Meow">
       {!showPage ? (
         <>
+        <div className="h1box">
           <h1>Purrrsonality Quiz</h1>
+        </div>
           <button className="start-button" onClick={handleStartButtonClick}>
             Start Quiz
           </button>
