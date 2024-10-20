@@ -23,6 +23,7 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
 
   const result = getResult();
 
+
   const images: { [key: string]: string } = {
     bombay: bombay,
     calico: calico,
@@ -33,7 +34,7 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
   const imageSrc = images[result];
 
   return (
-    <img src={imageSrc} alt={result} style={{ maxWidth: "100%", height: "auto" }} />
+    <img src={imageSrc} alt={result} style={{ maxWidth: "90%", height: "90%" }} />
   );
 };
 
