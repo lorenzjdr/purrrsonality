@@ -1,4 +1,8 @@
 import React from "react";
+import bombay from "../images/bombay.png";
+import calico from "../images/calico.png";
+import bsh from "../images/bsh.png";
+import ragdoll from "../images/ragdoll.png";
 
 interface ResultProps {
   answers: string[];
@@ -17,10 +21,19 @@ const Result: React.FC<ResultProps> = ({ answers }) => {
     );
   };
 
+  const result = getResult();
+
+  const images: { [key: string]: string } = {
+    bombay: bombay,
+    calico: calico,
+    bsh: bsh,
+    ragdoll: ragdoll,
+  };
+
+  const imageSrc = images[result];
+
   return (
-    <div>
-      <h2>Your Personality Type: {getResult()}</h2>
-    </div>
+    <img src={imageSrc} alt={result} style={{ maxWidth: "100%", height: "auto" }} />
   );
 };
 
